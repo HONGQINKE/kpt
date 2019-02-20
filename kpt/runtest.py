@@ -158,8 +158,8 @@ def getToken():
     login_url='sit-approve.qude369.com//kpt-approve/auth/login'
     headers = {'Content-Type': 'application/json;charset=UTF-8'}
     login_data = {
-        'username': 'liuhong',
-        'password': 'a34e113d2f009f1bf0ada95ad5240c0a',
+        'username': '***',
+        'password': '***',
     }
     r = requests.post(login_url,login_data,headers)
     print(r.cookies)
